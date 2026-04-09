@@ -1,3 +1,7 @@
+---
+title: Collection Management and Circulation Policy
+layout: default
+---
 # Code of Ethics
 The OWWL Library System, chartered by New York State, supports and strengthens public library services across Ontario, Wayne, Wyoming, and Livingston Counties. In our work, we uphold the mission, vision, and values of the System while serving our member libraries with professionalism, integrity, and respect.
 
