@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+
+    /* ── Reset and base ── */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px 60px;
+      line-height: 1.7;
+      color: #333;
+      background: #fff;
+    }
+
+    /* ── Header ── */
+    header {
+      margin-bottom: 32px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    img.logo {
+      max-height: 90px;
+      display: block;
+    }
+
+    /* ── Page title (h1) ── */
+    h1 {
+      margin-top: 32px;
+      margin-bottom: 8px;
+      font-size: 1.75rem;
+      font-weight: 500;
+      color: #111;
+      line-height: 1.3;
+    }
+
+    /* ── Section headings ── */
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 8px;
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #111;
+      padding-bottom: 4px;
+      border-bottom: 2px solid #005a9c;
+    }
+
+    h3 {
+      margin-top: 28px;
+      margin-bottom: 6px;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #222;
+    }
+
+    h4 {
+      margin-top: 20px;
+      margin-bottom: 4px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: #444;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    /* ── Body text ── */
+    p {
+      margin: 0 0 16px 0;
+    }
+
+    /* ── Lists ── */
+    ul, ol {
+      margin: 0 0 16px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    /* ── Links ── */
+    a {
+      color: #005a9c;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── Tables ── */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-size: 0.95em;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #f0f4f8;
+      font-weight: 500;
+      color: #111;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #fafafa;
+    }
+
+    /* ── Blockquote (policy notes, definitions) ── */
+    blockquote {
+      border-left: 4px solid #005a9c;
+      background-color: #f5f8fb;
+      padding: 12px 16px;
+      margin: 24px 0;
+      color: #444;
+      border-radius: 0 4px 4px 0;
+    }
+
+    blockquote p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* ── Policy meta block (adopted date, approved by, etc.) ── */
+    .policy-meta {
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 12px 16px;
+      margin: 0 0 32px 0;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    .policy-meta dl {
+      margin: 0;
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      gap: 4px 16px;
+    }
+
+    .policy-meta dt {
+      font-weight: 500;
+      color: #333;
+    }
+
+    .policy-meta dd {
+      margin: 0;
+    }
+
+    /* ── Horizontal rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 36px 0;
+    }
+
+    /* ── Strong / emphasis ── */
+    strong {
+      font-weight: 500;
+    }
+
+    /* ── Footer ── */
+    footer {
+      margin-top: 48px;
+      padding-top: 16px;
+      border-top: 1px solid #ddd;
+      font-size: 0.85em;
+      color: #888;
+    }
+
+    /* ── Print ── */
+    @media print {
+      body {
+        margin: 20px;
+        padding: 0;
+        font-size: 12pt;
+      }
+      header {
+        border-bottom: 1pt solid #000;
+      }
+      h2 {
+        border-bottom-color: #000;
+      }
+      a {
+        color: #000;
+      }
+      .policy-meta {
+        border-color: #000;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="{{ '/' | relative_url }}">
+      <img class="logo"
+           src="{{ '/assets/images/owwl_library_system_logo.png' | relative_url }}"
+           alt="OWWL Library System">
+    </a>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p></p>
+  </footer>
+
+</body>
+</html>
