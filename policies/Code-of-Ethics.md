@@ -19,4 +19,4 @@ The OWWL Library System, chartered by New York State, supports and strengthens p
 
 This Code of Ethics reflects the mission and values of the OWWL Library System. It is a statement of professional principles that guides staff conduct and supports our shared commitment to equitable and excellent library service.
 
-<p class="text-right"><em>Adopted by the OWWL Library System Board of Trustees: November 12, 2025</em>em></p>
+<p class="text-right"><em>Adopted by the OWWL Library System Board of Trustees: November 12, 2025</em></p>
