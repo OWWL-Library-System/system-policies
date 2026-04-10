@@ -141,4 +141,4 @@ The Board of Trustees’ determination is final.
 
 [\[1\]](#_ftnref1) American Library Association, Professional Ethics, Code of Ethics, [https://www.ala.org/tools/ethics](https://www.ala.org/tools/ethics)
 
-**Last Updated by the OWWL Library System Board of Trustees on** *March 12, 2025*
+<p class="text-right"><em>Last Updated by the OWWL Library System Board of Trustees on March 12, 2025</em></p>
